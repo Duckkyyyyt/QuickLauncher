@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="control_button_color">#4CC4C4C4</color>
-    <color name="control_button_pressed_color">#4D000000</color>
+    <!-- On-screen Controls -->
+    <!-- Semi-transparent green to match the logo background -->
+    <color name="control_button_color">#662DBF7F</color> 
+    <color name="control_button_pressed_color">#AA2DBF7F</color>
 
-    <color name="minebutton_color">#57CC33</color>
-    <color name="background_app">#181818</color>
-    <color name="divider">@color/background_overlay</color>
-    <color name="background_overlay">#464646</color>
-    <color name="background_status_bar">#242424</color>
-    <color name="background_bottom_bar">#232323</color>
+    <!-- The "Quick" Action Button (Play Button) -->
+    <!-- Using the bright mint/emerald from your logo -->
+    <color name="minebutton_color">#2DBF7F</color> 
+    
+    <!-- Main App Background -->
+    <!-- A clean, very dark gray/black to make the green pop -->
+    <color name="background_app">#0F110F</color> 
+    
+    <!-- Menu Overlays -->
+    <color name="divider">#1C1F1C</color>
+    <color name="background_overlay">#1C1F1C</color>
+    
+    <!-- System Bars -->
+    <color name="background_status_bar">#080A08</color>
+    <color name="background_bottom_bar">#080A08</color>
 
-    <color name="primary_text">#FFFFFF</color>
-    <color name="secondary_text">#B2B2B2</color>
+    <!-- Text Colors -->
+    <color name="primary_text">#FFFFFF</color> <!-- Clean White like the logo icon -->
+    <color name="secondary_text">#A0A5A0</color> <!-- Light Gray for sub-text -->
 </resources>
